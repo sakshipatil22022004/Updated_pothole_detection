@@ -1,0 +1,6 @@
+train: C:/pothole_detection/dataset/train/images
+val: C:/pothole_detection/dataset/valid/images
+test: C:/pothole_detection/dataset/test/images
+
+names:
+  0: pothole
