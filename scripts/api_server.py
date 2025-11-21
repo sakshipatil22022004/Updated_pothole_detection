@@ -9,7 +9,8 @@ import geocoder
 app = Flask(__name__)
 
 # Load YOLO model
-MODEL_PATH = r"C:\pothole_detection\runs\detect\pothole_detector_final3\weights\best.pt"
+MODEL_PATH = r"C:\pothole_detection\scripts\best.pt"
+
 model = YOLO(MODEL_PATH)
 
 # ----------------- MODERN UI TEMPLATE ------------------
